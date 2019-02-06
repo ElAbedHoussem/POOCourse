@@ -1,0 +1,29 @@
+package exercice1;
+
+import java.util.Scanner;
+
+public class Principale {
+
+	public static void main(String args[] ){
+		Personne [] tab = new Personne[2];
+		Scanner s= new Scanner(System.in);
+		String x=s.nextLine();
+
+		for (int i = 0; i < tab.length; i++) {
+			System.out.println("le premier personne :");
+			System.out.print("entrer votre nom:");
+			x=s.nextLine();
+			tab[i].setNom(x);
+			System.out.print("entrer votre prenom:");
+			x=s.nextLine();
+			tab[i].setPrenom(x);
+			System.out.print("entrer votre date de naissance :");
+			x=s.nextLine();
+			tab[i].setDateOfBirth(x);
+			
+		}
+		
+		int j1 = 
+	}
+		
+}

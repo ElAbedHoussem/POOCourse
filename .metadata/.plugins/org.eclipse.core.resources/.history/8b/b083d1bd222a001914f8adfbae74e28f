@@ -1,0 +1,27 @@
+package exercice1;
+
+public class Personne {
+
+	private String nom;
+	private String prenom;
+	private String dateOfBirth;
+	public String getNom() {
+		return nom;
+	}
+	public void setNom(String nom) {
+		this.nom = nom;
+	}
+	public private getString() {
+		return String;
+	}
+	public void setString(private string) {
+		String = string;
+	}
+	public String getDateOfBirth() {
+		return dateOfBirth;
+	}
+	public void setDateOfBirth(String dateOfBirth) {
+		this.dateOfBirth = dateOfBirth;
+	}
+	
+}
